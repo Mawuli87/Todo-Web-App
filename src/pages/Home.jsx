@@ -20,12 +20,14 @@ function HomePage() {
       <Navbar onSwitch={onSwitch} />
 
       <div className="container mt-4">
-        <h4>Company Description:</h4>
+        <h4>What is React:</h4>
         <p>
-          Dexwin Tech Ltd is a forward-thinking technology company dedicated to
-          developing cutting-edge digital solutions that enhance user
-          experiences. We are committed to creating seamless, user-friendly
-          products that make an impact.
+          a JavaScript library used for building user interfaces, particularly
+          for web applications. It's known for its component-based architecture,
+          allowing developers to create reusable UI elements and manage their
+          state effectively. While often referred to as a framework, it's
+          actually a library focused on building the UI, leaving other aspects
+          of application development to be handled by other tools and libraries.
         </p>
 
         {token ? (

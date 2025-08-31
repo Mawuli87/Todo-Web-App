@@ -14,7 +14,7 @@ const Navbar = ({ onSwitch }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-3">
       <Link className="navbar-brand" to="/">
-        Dexwin Tech
+        Todo App
       </Link>
       <button
         className="navbar-toggler"
